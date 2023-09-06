@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas.</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto2.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+    <h1>Reproduzindo áudios</h1>
+    <p>Vamos aprender a reproduzi áudios em HTML5</p>
+<audio preload="metadata" autoplay controls loop>
+   <source src="midia/fantasyland.mp3" type="audio/mpeg"> 
+    <p>
+        Infelizmente eu navegador não consegue reproduzir áudio
+        <a href="midia/fantasyland.mp3">CLique aqui para baixar seu arquivo MP3</a>
+    </p>
+
+</audio>
+    <!-- MP3 MAV OGG-->
+    
+</body>
+</html>
